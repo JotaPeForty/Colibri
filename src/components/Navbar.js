@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Heart } from 'lucide-react';
+import logo from '../assets/Logo Red Colibri.jpeg';
 
 export const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -53,8 +54,8 @@ export const Navbar = () => {
             className="flex items-center gap-2 group"
             data-testid="navbar-logo"
           >
-            <div className="bg-terracotta p-2 rounded-full group-hover:scale-110 transition-transform duration-300">
-              <Heart className="w-6 h-6 text-white" fill="white" />
+            <div>
+              <img src={logo} alt="Logo Red Colibri" className="w-20 h-20" />
             </div>
             <span className="text-xl md:text-2xl font-heading font-bold text-textPrimary">
               Red Colibri
