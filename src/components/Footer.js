@@ -31,12 +31,12 @@ export const Footer = () => {
                 <span className="text-xl font-heading font-bold">Red Colibri</span>
               </div>
               <p className="text-gray-300 font-body text-sm leading-relaxed mb-4">
-                Asociación sin fines de lucro dedicada al rescate, 
+                Asociación sin fines de lucro dedicada a la 
                 rehabilitación y adopción de animales en situación de calle.
               </p>
               <div className="flex gap-3">
                 <a
-                  href="#"
+                  href="https://www.facebook.com/groups/632863836387087/?ref=share&mibextid=NSMWBT"
                   className="bg-white/10 hover:bg-terracotta p-2 rounded-lg transition-colors duration-300"
                   aria-label="Facebook"
                   data-testid="footer-social-facebook"
@@ -44,10 +44,11 @@ export const Footer = () => {
                   <Facebook className="w-5 h-5" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/red_colibri_traslasierra/"
                   className="bg-white/10 hover:bg-terracotta p-2 rounded-lg transition-colors duration-300"
                   aria-label="Instagram"
                   data-testid="footer-social-instagram"
+                  target="_blank"
                 >
                   <Instagram className="w-5 h-5" />
                 </a>
@@ -144,13 +145,13 @@ export const Footer = () => {
                 </li>
                 <li className="flex items-start gap-3 text-gray-300">
                   <Phone className="w-5 h-5 text-terracotta flex-shrink-0 mt-0.5" />
-                  <a href="tel:+541112345678" className="hover:text-terracotta transition-colors">
-                    +54 11 1234-5678
+                  <a href="https://wa.me/5493544579965" className="hover:text-terracotta transition-colors">
+                    +549 3544 579965
                   </a>
                 </li>
                 <li className="flex items-start gap-3 text-gray-300">
                   <MapPin className="w-5 h-5 text-terracotta flex-shrink-0 mt-0.5" />
-                  <span>Buenos Aires, Argentina</span>
+                  <span>Traslasierra, Cordoba, Argentina</span>
                 </li>
               </ul>
             </div>

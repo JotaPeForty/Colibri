@@ -59,14 +59,14 @@ export const Contact = () => {
     {
       icon: Phone,
       title: 'Teléfono',
-      value: '+54 11 1234-5678',
-      link: 'tel:+541112345678'
+      value: '+549 3544 579965',
+      link: 'https://wa.me/5493544579965'
     },
     {
       icon: MapPin,
       title: 'Ubicación',
-      value: 'Buenos Aires, Argentina',
-      link: null
+      value: 'Traslasierra, Cordoba, Argentina',
+      link: 'https://maps.app.goo.gl/pDQ9aPmP7nzAJUtv6'
     }
   ];
 
@@ -158,16 +158,18 @@ export const Contact = () => {
               </h4>
               <div className="flex gap-4">
                 <a
-                  href="#"
+                  href="https://www.facebook.com/groups/632863836387087/?ref=share&mibextid=NSMWBT"
                   className="flex-1 text-center bg-white hover:bg-terracotta hover:text-white border border-warmSubtle text-textPrimary rounded-xl px-4 py-3 font-body font-medium transition-all duration-300"
                   data-testid="contact-social-facebook"
+                  target="_blank"
                 >
                   Facebook
                 </a>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/red_colibri_traslasierra/"
                   className="flex-1 text-center bg-white hover:bg-terracotta hover:text-white border border-warmSubtle text-textPrimary rounded-xl px-4 py-3 font-body font-medium transition-all duration-300"
                   data-testid="contact-social-instagram"
+                  target="_blank"
                 >
                   Instagram
                 </a>
