@@ -40,7 +40,7 @@ export const About = () => {
             Sobre Red Colibri
           </h2>
           <p className="text-lg leading-relaxed text-textSecondary font-body">
-            Somos una asociación sin fines de lucro dedicada al rescate, 
+            Somos una asociación sin fines de lucro dedicada a la 
             rehabilitación y adopción de animales en situación de calle.
           </p>
         </div>
@@ -64,7 +64,7 @@ export const About = () => {
                 Nuestra Misión
               </h3>
               <p className="text-base leading-relaxed text-textSecondary font-body">
-                Rescatar y rehabilitar animales en situación de vulnerabilidad, 
+                Rehabilitar animales en situación de vulnerabilidad, 
                 brindándoles atención médica, cuidado emocional y un espacio seguro 
                 mientras encontramos familias responsables que les brinden un hogar 
                 definitivo lleno de amor.
@@ -90,7 +90,7 @@ export const About = () => {
               <ul className="space-y-3 font-body text-textSecondary">
                 <li className="flex items-start gap-3">
                   <span className="text-terracotta mt-1">✓</span>
-                  <span>Rescate de animales en situación de calle o peligro</span>
+                  <span>Rehabilitación de animales en situación de calle o peligro</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-terracotta mt-1">✓</span>

@@ -52,7 +52,7 @@ export const Hero = () => {
             </h1>
 
             <p className="text-lg md:text-xl leading-relaxed text-textSecondary font-body">
-              En Red Colibri rescatamos, curamos y protegemos animales en situación de calle. 
+              En Red Colibri curamos y protegemos animales en situación de calle. 
               Trabajamos incansablemente para darles el amor y cuidado que merecen hasta 
               encontrarles un hogar definitivo lleno de cariño.
             </p>

@@ -121,10 +121,10 @@ export const News = () => {
                 {news[0].description}
               </p>
               <div className="inline-flex">
-                <button className="text-terracotta font-body font-semibold hover:underline flex items-center gap-2 group">
+                {/* <button className="text-terracotta font-body font-semibold hover:underline flex items-center gap-2 group">
                   Leer más
                   <span className="group-hover:translate-x-1 transition-transform">→</span>
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
@@ -164,10 +164,10 @@ export const News = () => {
                   <p className="text-sm text-textSecondary font-body leading-relaxed line-clamp-3 mb-4">
                     {item.description}
                   </p>
-                  <button className="text-terracotta text-sm font-body font-semibold hover:underline flex items-center gap-2 group">
+                  {/* <button className="text-terracotta text-sm font-body font-semibold hover:underline flex items-center gap-2 group">
                     Leer más
                     <span className="group-hover:translate-x-1 transition-transform">→</span>
-                  </button>
+                  </button> */}
                 </div>
               </div>
             );
@@ -185,23 +185,26 @@ export const News = () => {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="#"
+              href="https://www.facebook.com/groups/632863836387087/?ref=share&mibextid=NSMWBT"
               className="bg-white hover:bg-warmSubtle border border-warmSubtle text-textPrimary rounded-full px-6 py-3 font-body font-semibold transition-all duration-300 hover:-translate-y-1"
               data-testid="news-social-facebook"
+              target="_blank"
             >
               Facebook
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/red_colibri_traslasierra/"
               className="bg-white hover:bg-warmSubtle border border-warmSubtle text-textPrimary rounded-full px-6 py-3 font-body font-semibold transition-all duration-300 hover:-translate-y-1"
               data-testid="news-social-instagram"
+              target="_blank"
             >
               Instagram
             </a>
             <a
-              href="#"
+              href="https://wa.me/5493544579965"
               className="bg-white hover:bg-warmSubtle border border-warmSubtle text-textPrimary rounded-full px-6 py-3 font-body font-semibold transition-all duration-300 hover:-translate-y-1"
               data-testid="news-social-whatsapp"
+              target="_blank"
             >
               WhatsApp
             </a>
